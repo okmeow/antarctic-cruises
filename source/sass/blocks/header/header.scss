@@ -1,0 +1,30 @@
+.header {
+  width: 100vw;
+  min-width: $vp-1024;
+  margin: 0 auto;
+  background-color: transparent;
+  z-index: 2;
+
+  // @media (max-width: $vp-1023) {
+  //   position: static;
+  //   min-width: 768px;
+  // }
+
+  // @media (max-width: $vp-767) {
+  //   min-width: 320px;
+  // }
+}
+
+.header > div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1366px;
+  // padding: 30px 18.2% 35px 18.2%;
+  // align-items: center;
+  margin: 0 auto;
+
+  // @media (min-width: 1921px) {
+  //   padding: 30px 158px 35px 350px;
+  // }
+}

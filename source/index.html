@@ -4,13 +4,215 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Описание проекта">
-    <title>ProjectName</title>
+    <meta name="description" content="Круизы в Антарктику">
+    <title>Круизы в Антарктику</title>
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
+    <header class="header">
+      <div>
+        <div class="header__logo-link-wrapper">
+          <a>
+            <picture>
+              <!-- <source media="(max-width: 767px)" srcset="img/mobile/logo-mobile.svg"> -->
+              <img src="img/logo-desktop.svg" width="70" height="38" alt="Логотип сайта.">
+            </picture>
+          </a>
+        </div>
+        <nav class="navigation navigation--closed navigation--nojs">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#advantages">Преимущества</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#destinations">Направления</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#nearest-trips">Ближайшие круизы</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
+    <main class="main-container">
+      <section class="welcome">
+        <div>
+          <h1>Круизы в Антарктику</h1>
+          <p>Волшебный мир айсбергов и пингвинов</p>
+        </div>
+      </section>
 
+      <section class="about">
+        <h2 class="about__title">Путешествие на край Земли</h2>
+        <p class="about__description">Это волшебное путешествие поможет вам познакомиться поближе с удивительным миром Антарктики. Наш круизный лайнер отвезет вас на край Земли, где вы сможете увидеть: ледяные айсберги, несколько видов пингвинов, китов, морских котиков и многое другое.</p>
+        <picture>
+          <!-- <source media="(max-width: 767px)" srcset="img/mobile/logo-mobile.svg"> -->
+          <img src="img/about-penguins.jpg" width="560" height="301" alt="Три пенгвина на фоне снего.">
+        </picture>
+      </section>
+
+      <section class="advantages">
+        <div class="advantages__wrapper">
+          <h2 class="advantages__title">Преимущества</h2>
+          <ul class="advantages__list">
+            <li class="advantages__item advantages__item--size">
+              <p class="advantages__item-name">Небольшой круизный лайнер </p>
+              <p class="advantages__item-description">Круизный лайнер, рассчитанный всего лишь на 300 гостей, поможет избежать шума и очередей и даст возможность насладиться видами и природой.</p>
+            </li>
+            <li class="advantages__item advantages__item--all-inclusive">
+              <p class="advantages__item-name">Система все включено</p>
+              <p class="advantages__item-description">Все наши круизы работают по системе “Все Включено”. Великолепные блюда и безлимитный бар доступны для вас 24 часа.</p>
+            </li>
+            <li class="advantages__item advantages__item--zodiac">
+              <p class="advantages__item-name">Экскурсионные туры на Zodiac</p>
+              <p class="advantages__item-description">Экскурсионные туры к берегам Антарктиды совершаются на оборудованных лодках типа Zodiack c опытными экскурсоводами.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="destinations">
+        <div>
+          <h2 class="destinations__title">Ближайшие круизы</h2>
+          <ul class="destinations__list">
+            <li class="destinations__item">
+              <p class="destinations__item-description">Круиз “Астория”</p>
+            </li>
+            <li class="destinations__item">
+              <p class="destinations__item-description">Круиз “Элайн”</p>
+            </li>
+            <li class="destinations__item">
+              <p class="destinations__item-description">Круиз “Атлантис”</p>
+            </li>
+            <li class="destinations__item">
+              <p class="destinations__item-description">Круиз “Одиссей”</p>
+            </li>
+            <li class="destinations__item">
+              <p class="destinations__item-description">Круиз “Олимпия”</p>
+            </li>
+            <li class="destinations__item">
+              <p class="destinations__item-description">Круиз “Аврора”</p>
+            </li>
+            <li class="destinations__item">
+              <p class="destinations__item-description">Круиз “Леонор”</p>
+            </li>
+            <li class="destinations__item">
+              <p class="destinations__item-description">Круиз “Минион - 1”</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="booking">
+        <a id="booking-form"></a>
+        <div>
+          <h3>Раннее бронирование</h3>
+          <p>Забронируйте тур за 3-6 месяцев до даты выезда и сэкономьте до 50%</p>
+          <div class="booking__form-wrapper">
+            <form action="https://echo.htmlacademy.ru/" method="post">
+              <fieldset>
+                <legend class="visually-hidden">Поля для ввода</legend>
+                <div class="booking__label-wrapper">
+                  <label>
+                    <span class="visually-hidden">Имя</span>
+                    <input type="text" placeholder="Имя" id="name" name="name" required>
+                  </label>
+                </div>
+                <div class="booking__label-wrapper">
+                  <label>
+                    <span class="visually-hidden">Телефон</span>
+                    <input placeholder="Телефон" name="phone" required>
+                  </label>
+                </div>
+                <div class="booking__label-wrapper">
+                  <label>
+                    <span class="visually-hidden">Электронная почта</span>
+                    <input placeholder="Email" name="e-mail" required>
+                  </label>
+                </div>
+                <div class="booking__label-wrapper">
+                  <label>
+                    <input class="visually-hidden" type="checkbox" name="personal" value="agreement" required checked>
+                    <span class="booking__checkbox-mark"></span>
+                    <span class="booking__checkbox-text">Я согласен на&nbsp;обработку моих персональных данных</span>
+                  </label>
+                </div>
+                <button type="submit">Задать вопрос</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <h2 class="contacts__title">У вас ещё остались вопросы или сомнения? Приезжайте к нам в офис и мы вам все расскажем.</h2>
+        <p class="contacts__address">г. Санкт Петербург, ул. Большая Конюшенная, 19/8</p>
+        <p class="contacts__phone">8-800-200-00-00</p>
+      </section>
+
+    </main>
+
+    <footer class="footer" data-footer="footer">
+      <div>
+        <section class="footer__navigation footer-navigation">
+          <h3 class="visually-hidden">Навигация по сайту</h3>
+          <a class="footer__logo-link" href="index.html">
+            <picture>
+              <!-- <source media="(min-width: 768px)" srcset="img/tablet/footer-logo.svg"> -->
+              <img src="img/logo-desktop.svg" width="70" height="38" alt="Логотип сайта.">
+            </picture>
+          </a>
+          <ul class="footer-navigation__list">
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#">Преимущества</a>
+            </li>
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#">Направления</a>
+            </li>
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#">Ближайшие круизы</a>
+            </li>
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="footer__social social">
+          <h3 class="visually-hidden">Социальные сети</h3>
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link" href="https://htmlacademy.ru/study" target="_blank">
+                <!-- <svg class="social__icon" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="img/sprite.svg#footer-ok"></use>
+                </svg> -->
+                <span class="visually-hidden">Одноклассники</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="https://vk.com/htmlacademy" target="_blank">
+                <!-- <svg class="social__icon" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="img/sprite.svg#footer-vk"></use>
+                </svg> -->
+                <span class="visually-hidden">Вконтакте</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="https://ru.pinterest.com/pin/342695852890631631/" target="_blank">
+                <!-- <svg class="social__icon" width="22" height="22" viewBox="0 0 22 22" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="img/sprite.svg#footer-pinterest"></use>
+                </svg> -->
+                <span class="visually-hidden">Пинтерест</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </footer>
 
     <script src="js/vendor.min.js"></script>
     <script src="js/main.min.js"></script>
