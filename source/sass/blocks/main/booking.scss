@@ -76,16 +76,6 @@
   &:hover {
     background-color: #93d8fa;
   }
-
-  // &::placeholder {
-  //   color: #ffffff;
-  //   opacity: 0.4;
-  // }
-
-  // &:hover {
-  //   background-color: rgba(4, 20, 39, 0.25);
-  // }
-
 }
 
 .booking__checkbox-mark {
@@ -97,6 +87,10 @@
   background-color: #f9fbfd;
   top: 5px;
   cursor: pointer;
+}
+
+.booking__label-wrapper input:focus + .booking__checkbox-mark {
+  outline: 2px solid #93d8fa;
 }
 
 .booking__label-wrapper:hover .booking__checkbox-mark {
