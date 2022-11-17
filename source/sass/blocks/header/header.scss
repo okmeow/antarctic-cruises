@@ -5,10 +5,9 @@
   background-color: transparent;
   z-index: 2;
 
-  // @media (max-width: $vp-1023) {
-  //   position: static;
-  //   min-width: 768px;
-  // }
+  @media (max-width: $vp-1023) {
+    min-width: 768px;
+  }
 
   // @media (max-width: $vp-767) {
   //   min-width: 320px;
@@ -19,16 +18,13 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   max-width: 1366px;
-  padding: 35px 18.2% 35px 18.2%;
+  padding: 35px 100px 35px 100px;
   margin: 0 auto;
-
-  // @media (min-width: 1921px) {
-  //   padding: 30px 158px 35px 350px;
-  // }
 }
 
 .header__logo-link-wrapper {
-  margin: 0 200px 0 0;
+  margin: 0 10px 0 0;
 }

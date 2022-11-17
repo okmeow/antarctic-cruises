@@ -2,6 +2,12 @@
   background-color: #b7dafa;
   background-image: url("../img/booking-background.jpg");
   background-size: cover;
+  width: 100vw;
+  min-width: $vp-1024;
+
+  @media (max-width: $vp-1023) {
+    min-width: 768px;
+  }
 }
 
 .booking__wrapper {

@@ -3,6 +3,12 @@
   background-image: url("../img/advantages-background.jpg");
   background-size: cover;
   padding: 120px 100px;
+  width: 100vw;
+  min-width: $vp-1024;
+
+  @media (max-width: $vp-1023) {
+    min-width: 768px;
+  }
 }
 
 .advantages__wrapper {

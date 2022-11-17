@@ -1,5 +1,11 @@
 .footer {
   background-color: #011c40;
+  width: 100vw;
+  min-width: $vp-1024;
+
+  @media (max-width: $vp-1023) {
+    min-width: 768px;
+  }
 }
 
 .footer__wrapper {

@@ -3,6 +3,12 @@
   background-image: url("../img/welcome-background.jpg");
   background-size: 100% 100%;
   padding: 283px 200px;
+  width: 100vw;
+  min-width: $vp-1024;
+
+  @media (max-width: $vp-1023) {
+    min-width: 768px;
+  }
 }
 
 .welcome__wrapper {

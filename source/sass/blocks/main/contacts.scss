@@ -1,5 +1,10 @@
 .contacts {
   width: 100vw;
+  min-width: $vp-1024;
+
+  @media (max-width: $vp-1023) {
+    min-width: 768px;
+  }
 }
 
 .contacts__wrapper {
