@@ -34,7 +34,6 @@ const showExtraDescriptionOnFocus = () => {
 const showExtraDescriptionByMouse = () => {
   for (let i = 0; i < destinationElements.length; i++) {
     destinationElements[i].addEventListener('mouseenter', () => {
-      hideExtraDescription();
       showExtraDescription(i);
     });
   }
