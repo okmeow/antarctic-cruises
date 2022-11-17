@@ -5,9 +5,11 @@
 }
 
 .booking__wrapper {
-  padding: 50px 100px;
+  padding: 50px 50px;
   display: flex;
   flex-wrap: wrap;
+  max-width: 1366px;
+  margin: 0 auto;
 }
 
 .booking__text-wrapper {

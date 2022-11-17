@@ -1,10 +1,16 @@
 .about {
+  width: 100vw;
+}
+
+.about__wrapper {
+  max-width: 1366px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   padding: 120px 100px 135px 100px;
 }
 
-.about__wrapper {
+.about__text-wrapper {
   width: 520px;
   margin: 0 50px 0 0;
 }

@@ -1,4 +1,10 @@
 .contacts {
+  width: 100vw;
+}
+
+.contacts__wrapper {
+  max-width: 1366px;
+  margin: 0 auto;
   padding: 50px 100px;
   display: flex;
   flex-wrap: wrap;
@@ -9,7 +15,7 @@
   margin: 0 50px 0 0;
 }
 
-.contacts__wrapper {
+.contacts__text-wrapper {
   width: 500px;
   display: inline-flex;
   flex-direction: column;
