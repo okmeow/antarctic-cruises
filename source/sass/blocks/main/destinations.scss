@@ -1,0 +1,121 @@
+.destinations > div {
+  padding: 103px;
+}
+
+.destinations__title {
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 600;
+}
+
+.destinations__list {
+  list-style-type: none;
+  margin: 0 0 0 15px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px 30px;
+}
+
+.destinations__item {
+  width: 260px;
+  min-height: 386px;
+}
+
+.destinations__item-description {
+  margin: 320px 0 0 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f9fbfd;
+}
+
+.destinations__extra {
+  padding: 25px 25px 25px 25px;
+  display: none;
+  position: absolute;
+  width: 260px;
+}
+
+.destinations__extra-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f9fbfd;
+  margin: 0;
+}
+
+.destinations__extra-dt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f9fbfd;
+  margin: 0;
+  padding: 0;
+}
+
+.destinations__extra-dd {
+  color: #d8d8d9;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+.destinations__extra-button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #011C40;
+  background-color: #f9fbfd;
+  text-decoration: none;
+  padding: 15px 45px;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.destinations__item--astoria {
+  background-image: url("../img/destinations-astoria.jpg");
+}
+
+.destinations__item--elain {
+  background-image: url("../img/destinations-elain.jpg");
+}
+
+.destinations__item--atlantis {
+  background-image: url("../img/destinations-atlantis.jpg");
+}
+
+.destinations__item--odissey {
+  background-image: url("../img/destinations-odissey.jpg");
+}
+
+.destinations__item--olimpia {
+  background-image: url("../img/destinations-olimpia.jpg");
+}
+
+.destinations__item--aurora {
+  background-image: url("../img/destinations-aurora.jpg");
+}
+
+.destinations__item--leonor {
+  background-image: url("../img/destinations-leonor.jpg");
+}
+
+.destinations__item--minion {
+  background-image: url("../img/destinations-minion.jpg");
+}
+
+.destinations__item:hover {
+  background-image: none;
+  background-color: #011c40;;
+}
+
+.destinations__item:hover .destinations__extra {
+  display: block;
+}
+
+.destinations__item:hover .destinations__item-description {
+  display: none;
+}

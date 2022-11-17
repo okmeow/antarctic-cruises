@@ -1,0 +1,38 @@
+.contacts {
+  padding: 50px 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contacts__map {
+  display: inline-block;
+  margin: 0 50px 0 0;
+}
+
+.contacts__wrapper {
+  width: 500px;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 10px;
+}
+
+.contacts__title {
+  color: #011c40;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.contacts__address {
+  color: #011c40;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contacts__phone {
+  color: #011c40;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}

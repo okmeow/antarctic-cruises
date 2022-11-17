@@ -1,0 +1,58 @@
+.advantages {
+  background-color: aqua;
+  background-image: url("../img/advantages-background.jpg");
+  padding: 120px 100px;
+}
+
+.advantages__title {
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 600;
+}
+
+.advantages__list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages__item {
+  background-color: #f9fbfd;
+  width: 360px;
+  margin: 0 0 40px 0;
+  padding: 87px 30px 50px 30px;
+}
+
+.advantages__item--size {
+  background-image: url("../img/advantages-ship.svg");
+  background-repeat: no-repeat;
+  background-position: 40px 40px;
+}
+
+.advantages__item--all-inclusive {
+  background-image: url("../img/advantages-all-inclusive.svg");
+  background-repeat: no-repeat;
+  background-position: 40px 40px;
+}
+
+.advantages__item--zodiac {
+  background-image: url("../img/advantages-excursions.svg");
+  background-repeat: no-repeat;
+  background-position: 40px 40px;
+}
+
+.advantages__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.advantages__item-name {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.advantages__item-description {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}

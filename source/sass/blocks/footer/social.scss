@@ -1,0 +1,13 @@
+.social__list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 27px;
+}
+
+.social__link {
+  color: #f9fbfd;
+}
