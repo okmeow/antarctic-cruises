@@ -15,16 +15,20 @@
   // }
 }
 
-.header > div {
+.header__wrapper {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   width: 100%;
   max-width: 1366px;
-  // padding: 30px 18.2% 35px 18.2%;
-  // align-items: center;
+  padding: 35px 18.2% 35px 18.2%;
   margin: 0 auto;
 
   // @media (min-width: 1921px) {
   //   padding: 30px 158px 35px 350px;
   // }
+}
+
+.header__logo-link-wrapper {
+  margin: 0 200px 0 0;
 }
