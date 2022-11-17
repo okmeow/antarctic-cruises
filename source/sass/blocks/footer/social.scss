@@ -10,4 +10,12 @@
 
 .social__link {
   color: #f9fbfd;
+
+  &:hover {
+    color: #949494;
+  }
+
+  &:active {
+    color: #93d8fa;
+  }
 }

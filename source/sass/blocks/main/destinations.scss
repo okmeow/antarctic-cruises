@@ -84,6 +84,14 @@
   padding: 15px 45px;
   display: inline-block;
   vertical-align: baseline;
+
+  &:hover {
+    background-color: #949494;
+  }
+
+  &:active {
+    background-color: #93d8fa;
+  }
 }
 
 .destinations__item--astoria {

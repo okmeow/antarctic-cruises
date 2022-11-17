@@ -73,6 +73,10 @@
   font-size: 14px;
   line-height: 21px;
 
+  &:hover {
+    background-color: #93d8fa;
+  }
+
   // &::placeholder {
   //   color: #ffffff;
   //   opacity: 0.4;
@@ -95,6 +99,10 @@
   cursor: pointer;
 }
 
+.booking__label-wrapper:hover .booking__checkbox-mark {
+  background-color: #93d8fa;
+}
+
 .booking__label-wrapper input:checked + .booking__checkbox-mark {
   &::after {
     content: "";
@@ -112,7 +120,7 @@
   font-weight: 400;
   font-size: 10px;
   line-height: 13px;
-  padding: 0 0 0 23px;
+  padding: 5px 0 5px 23px;
   cursor: pointer;
 }
 
@@ -124,10 +132,17 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
-  // text-align: center;
   color: #011c40;
   border: none;
   background-color: #f9fbfd;
   cursor: pointer;
   user-select: none;
+
+  &:hover {
+    background-color: #949494;
+  }
+
+  &:active {
+    background-color: #93d8fa;
+  }
 }

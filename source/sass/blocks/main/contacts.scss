@@ -57,4 +57,12 @@
   background-image: url("../img/contacts-phone.svg");
   background-repeat: no-repeat;
   background-position: 2px 2px;
+
+  &:hover {
+    color: #0e87c3;
+  }
+
+  &:active {
+    color: #2200ba;
+  }
 }
