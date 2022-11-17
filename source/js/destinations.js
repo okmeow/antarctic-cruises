@@ -34,6 +34,7 @@ const showExtraDescriptionOnFocus = () => {
 const showExtraDescriptionByMouse = () => {
   for (let i = 0; i < destinationElements.length; i++) {
     destinationElements[i].addEventListener('mouseenter', () => {
+      hideExtraDescription();
       showExtraDescription(i);
     });
   }
@@ -78,6 +79,7 @@ const hideExtraDescriptionByMouse = () => {
   for (let i = 0; i < destinationElements.length; i++) {
     destinationElements[i].addEventListener('mouseleave', () => {
       hideExtraDescription();
+      document.activeElement.blur();
     });
   }
 };
@@ -93,11 +95,9 @@ const destinationElementsGetPreviousFocus = () => {
 };
 
 const destinationElementsGetFocus = () => destinationElements.forEach((item) => item.addEventListener('focus', showExtraDescriptionOnFocus));
-// const destinationElementsLoseFocus = () => destinationElements.forEach((item) => item.addEventListener('focus', hideExtraDescription));
 const destinationButtonElementsLoseFocus = () => destinationButtonElements.forEach((item) => item.addEventListener('blur', hideExtraDescription));
 
 const destinationCardToggler = () => {
-  // destinationElementsLoseFocus();
   hideExtraDescriptionByMouse();
   showExtraDescriptionByMouse();
   destinationButtonElementsLoseFocus();
