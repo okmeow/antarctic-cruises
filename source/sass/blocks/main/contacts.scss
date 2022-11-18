@@ -5,6 +5,10 @@
   @media (max-width: $vp-1023) {
     min-width: 768px;
   }
+
+  @media (max-width: $vp-767) {
+    min-width: 320px;
+  }
 }
 
 .contacts__wrapper {
@@ -16,6 +20,11 @@
 
   @media (max-width: $vp-1023) {
     padding: 100px 45px;
+  }
+
+  @media (max-width: $vp-767) {
+    padding: 65px 15px;
+    flex-direction: column-reverse;
   }
 }
 
@@ -33,6 +42,11 @@
     width: 324px;
     height: 335px;
   }
+
+  @media (max-width: $vp-767) {
+    width: 290px;
+    height: 316px;
+  }
 }
 
 .contacts__text-wrapper {
@@ -43,7 +57,11 @@
 
   @media (max-width: $vp-1023) {
     width: 324px;
-    padding: 50px 0;
+    padding: 0 0 50px 0;
+  }
+
+  @media (max-width: $vp-767) {
+    width: 290px;
   }
 }
 

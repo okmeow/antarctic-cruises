@@ -9,6 +9,11 @@
     min-width: 768px;
     background-image: url("../img/tablet/booking-background.jpg");
   }
+
+  @media (max-width: $vp-767) {
+    min-width: 320px;
+    background-image: url("../img/mobile/booking-background.jpg");
+  }
 }
 
 .booking__wrapper {
@@ -22,6 +27,10 @@
     flex-direction: column;
     padding: 100px 50px 50px 50px;
     align-items: center;
+  }
+
+  @media (max-width: $vp-767) {
+    padding: 65px 15px 50px 15px;
   }
 }
 
@@ -46,6 +55,11 @@
     font-size: 34px;
     line-height: 51px;
   }
+
+  @media (max-width: $vp-767) {
+    font-size: 24px;
+    line-height: 31px;
+  }
 }
 
 .booking__text-wrapper > p {
@@ -58,12 +72,22 @@
     width: 352px;
     margin: 0 auto 30px auto;
   }
+
+  @media (max-width: $vp-767) {
+    width: 257px;
+    margin: 0 auto 30px auto;
+  }
 }
 
 .booking__form-wrapper {
   background-color: #011c40;
   padding: 50px;
   width: 403px;
+
+  @media (max-width: $vp-767) {
+    padding: 40px 30px;
+    width: 290px;
+  }
 }
 
 .booking__form-wrapper > p {
@@ -72,6 +96,11 @@
   line-height: 27px;
   color: #f9fbfd;
   margin: 0 0 35px 0;
+
+  @media (max-width: $vp-767) {
+    line-height: 25px;
+    text-align: center;
+  }
 }
 
 .booking__form-wrapper fieldset {
@@ -98,6 +127,10 @@
 
   &:hover {
     background-color: #93d8fa;
+  }
+
+  @media (max-width: $vp-767) {
+    min-width: 230px;
   }
 }
 
@@ -139,6 +172,10 @@
   line-height: 13px;
   padding: 5px 0 5px 23px;
   cursor: pointer;
+
+  @media (max-width: $vp-767) {
+    display: block;
+  }
 }
 
 .booking__form-wrapper button {
@@ -161,5 +198,9 @@
 
   &:active {
     background-color: #93d8fa;
+  }
+
+  @media (max-width: $vp-767) {
+    padding: 14px 50px;
   }
 }

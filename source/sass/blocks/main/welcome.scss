@@ -9,6 +9,11 @@
     min-width: 768px;
     background-image: url("../img/tablet/welcome-background.jpg");
   }
+
+  @media (max-width: $vp-1023) {
+    min-width: 320px;
+    background-image: url("../img/mobile/welcome-background.jpg");
+  }
 }
 
 .welcome__wrapper {
@@ -18,6 +23,10 @@
 
   @media (max-width: $vp-1023) {
     padding: 280px 45px;
+  }
+
+  @media (max-width: $vp-767) {
+    padding: 185px 15px;
   }
 }
 
@@ -32,6 +41,11 @@
     font-size: 50px;
     line-height: 61px;
   }
+
+  @media (max-width: $vp-767) {
+    font-size: 36px;
+    line-height: 45px;
+  }
 }
 
 .welcome__description {
@@ -43,6 +57,11 @@
 
   @media (max-width: $vp-1023) {
     font-size: 18px;
+    line-height: 22px;
+  }
+
+  @media (max-width: $vp-767) {
+    font-size: 16px;
     line-height: 22px;
   }
 }
