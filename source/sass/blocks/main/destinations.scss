@@ -17,7 +17,7 @@
   margin: 0 auto;
 
   @media (max-width: $vp-1023) {
-    padding: 100px 45px;
+    padding: 100px 45px 100px 5.8%;
   }
 
   @media (max-width: $vp-767) {
@@ -67,11 +67,11 @@
 
   @media (max-width: $vp-1023) {
     width: 309px;
+    margin: 0 auto;
   }
 
   @media (max-width: $vp-767) {
     width: 270px;
-    margin: 0 auto;
   }
 }
 
