@@ -2,6 +2,9 @@
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .social__item:not(:last-child) {
@@ -17,5 +20,26 @@
 
   &:active {
     color: #93d8fa;
+  }
+}
+
+.social__icon--ok {
+  @media (max-width: $vp-1023) {
+    width: 10px;
+    height: 16px;
+  }
+}
+
+.social__icon--vk {
+  @media (max-width: $vp-1023) {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.social__icon--pi {
+  @media (max-width: $vp-1023) {
+    width: 16px;
+    height: 16px;
   }
 }

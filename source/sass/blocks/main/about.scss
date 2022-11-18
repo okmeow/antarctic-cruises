@@ -13,11 +13,20 @@
   display: flex;
   flex-wrap: wrap;
   padding: 120px 100px 135px 100px;
+
+  @media (max-width: $vp-1023) {
+    padding: 100px 45px;
+  }
 }
 
 .about__text-wrapper {
   width: 520px;
   margin: 0 50px 0 0;
+
+  @media (max-width: $vp-1023) {
+    width: 325px;
+    margin: 0 25px 0 0;
+  }
 }
 
 .about__title {
@@ -25,6 +34,13 @@
   line-height: 42px;
   font-weight: 600;
   margin: 30px 0 30px 0;
+
+  @media (max-width: $vp-1023) {
+    font-size: 26px;
+    line-height: 36px;
+    width: 205px;
+    margin: 0 0 30px 0;
+  }
 }
 
 .about__description {
@@ -32,4 +48,14 @@
   line-height: 24px;
   font-weight: 400;
   margin: 0;
+
+  @media (max-width: $vp-1023) {
+    width: 325px;
+  }
+}
+
+.about__image {
+  @media (max-width: $vp-1023) {
+    width: 324px;
+  }
 }

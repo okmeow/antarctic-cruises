@@ -11,6 +11,10 @@
   padding: 103px;
   max-width: 1366px;
   margin: 0 auto;
+
+  @media (max-width: $vp-1023) {
+    padding: 100px 45px;
+  }
 }
 
 .destinations__title {
@@ -21,17 +25,25 @@
 
 .destinations__list {
   list-style-type: none;
-  margin: 0 0 0 15px;
-  padding: 0;
+  padding: 0 15px 0 15px;
+  margin: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px 30px;
+
+  @media (max-width: $vp-1023) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .destinations__item {
   width: 260px;
   min-height: 386px;
   background-color: #011c40;
+
+  @media (max-width: $vp-1023) {
+    width: 309px;
+  }
 }
 
 .destinations__item-description {
@@ -97,34 +109,66 @@
 
 .destinations__item--astoria {
   background-image: url("../img/destinations-astoria.jpg");
+
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-astoria.jpg");
+  }
 }
 
 .destinations__item--elain {
   background-image: url("../img/destinations-elain.jpg");
+
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-elain.jpg");
+  }
 }
 
 .destinations__item--atlantis {
   background-image: url("../img/destinations-atlantis.jpg");
+
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-atlantis.jpg");
+  }
 }
 
 .destinations__item--odissey {
   background-image: url("../img/destinations-odissey.jpg");
+
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-odissey.jpg");
+  }
 }
 
 .destinations__item--olimpia {
   background-image: url("../img/destinations-olimpia.jpg");
+
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-olimpia.jpg");
+  }
 }
 
 .destinations__item--aurora {
   background-image: url("../img/destinations-aurora.jpg");
+
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-aurora.jpg");
+  }
 }
 
 .destinations__item--leonor {
   background-image: url("../img/destinations-leonor.jpg");
+
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-leonor.jpg");
+  }
 }
 
 .destinations__item--minion {
   background-image: url("../img/destinations-minion.jpg");
+
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-minion.jpg");
+  }
 }
 
 .destinations__item:focus {

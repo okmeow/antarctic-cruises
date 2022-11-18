@@ -14,8 +14,16 @@
   flex-wrap: wrap;
   max-width: 1366px;
   margin: 0 auto;
+
+  @media (max-width: $vp-1023) {
+    padding: 50px 45px;
+  }
 }
 
 .footer__navigation {
   margin: 0 100px 0 0;
+
+  @media (max-width: $vp-1023) {
+    margin: 0 40px 0 0;
+  }
 }

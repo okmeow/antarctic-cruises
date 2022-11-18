@@ -2,7 +2,6 @@
   background-color: aqua;
   background-image: url("../img/advantages-background.jpg");
   background-size: cover;
-  padding: 120px 100px;
   width: 100vw;
   min-width: $vp-1024;
 
@@ -14,6 +13,12 @@
 .advantages__wrapper {
   max-width: 1366px;
   margin: 0 auto;
+  padding: 120px 100px;
+
+  @media (max-width: $vp-1023) {
+    padding: 100px 45px;
+    text-align: center;
+  }
 }
 
 .advantages__title {
@@ -32,30 +37,53 @@
 .advantages__item {
   background-color: #f9fbfd;
   width: 360px;
-  margin: 0 0 40px 0;
+  margin: 0 0 40px 20px;
   padding: 87px 30px 50px 30px;
+
+  @media (max-width: $vp-1023) {
+    width: 206px;
+    margin: 0 0 30px 0;
+    text-align: left;
+    padding: 76px 16px 25px 20px;
+  }
+}
+
+.advantages__item:not(:last-child) {
+  margin-right: 40px;
+
+  @media (max-width: $vp-1023) {
+    margin-right: 30px;
+  }
 }
 
 .advantages__item--size {
   background-image: url("../img/advantages-ship.svg");
   background-repeat: no-repeat;
   background-position: 40px 40px;
+
+  @media (max-width: $vp-1023) {
+    background-size: 21px 26px;
+  }
 }
 
 .advantages__item--all-inclusive {
   background-image: url("../img/advantages-all-inclusive.svg");
   background-repeat: no-repeat;
   background-position: 40px 40px;
+
+  @media (max-width: $vp-1023) {
+    background-size: 27px 26px;
+  }
 }
 
 .advantages__item--zodiac {
   background-image: url("../img/advantages-excursions.svg");
   background-repeat: no-repeat;
   background-position: 40px 40px;
-}
 
-.advantages__item:not(:last-child) {
-  margin-right: 40px;
+  @media (max-width: $vp-1023) {
+    background-size: 36px 26px;
+  }
 }
 
 .advantages__item-name {

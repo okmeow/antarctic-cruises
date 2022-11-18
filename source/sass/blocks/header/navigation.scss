@@ -1,3 +1,10 @@
+.navigation {
+  @media (max-width: $vp-767) {
+    display: none;
+  }
+}
+
+
 .navigation__list {
   display: flex;
   flex-wrap: wrap;
@@ -22,5 +29,10 @@
 
   &:active {
     color: #93d8fa;
+  }
+
+  @media (max-width: $vp-1023) {
+    font-size: 14px;
+    line-height: 17px;
   }
 }

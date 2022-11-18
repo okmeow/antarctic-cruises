@@ -9,9 +9,9 @@
     min-width: 768px;
   }
 
-  // @media (max-width: $vp-767) {
-  //   min-width: 320px;
-  // }
+  @media (max-width: $vp-767) {
+    min-width: 320px;
+  }
 }
 
 .header__wrapper {
@@ -23,8 +23,28 @@
   max-width: 1366px;
   padding: 35px 100px 35px 100px;
   margin: 0 auto;
+
+  @media (max-width: $vp-1023) {
+    padding: 35px 45px 35px 45px;
+  }
+
+  @media (max-width: $vp-767) {
+    padding: 20px 15px 20px 15px;
+  }
 }
 
 .header__logo-link-wrapper {
   margin: 0 10px 0 0;
+}
+
+.header__logo {
+  @media (max-width: $vp-1023) {
+    width: 38px;
+    height: 20px;
+  }
+
+  @media (max-width: $vp-767) {
+    width: 42px;
+    height: 22px;
+  }
 }

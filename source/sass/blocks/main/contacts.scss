@@ -13,11 +13,26 @@
   padding: 50px 100px;
   display: flex;
   flex-wrap: wrap;
+
+  @media (max-width: $vp-1023) {
+    padding: 100px 45px;
+  }
+}
+
+.contacts__map-wrapper {
+  display: inline-block;
+  margin: 0 50px 0 0;
+
+  @media (max-width: $vp-1023) {
+    margin: 0 30px 0 0;
+  }
 }
 
 .contacts__map {
-  display: inline-block;
-  margin: 0 50px 0 0;
+  @media (max-width: $vp-1023) {
+    width: 324px;
+    height: 335px;
+  }
 }
 
 .contacts__text-wrapper {
@@ -25,6 +40,11 @@
   display: inline-flex;
   flex-direction: column;
   padding: 50px 10px;
+
+  @media (max-width: $vp-1023) {
+    width: 324px;
+    padding: 50px 0;
+  }
 }
 
 .contacts__title {
