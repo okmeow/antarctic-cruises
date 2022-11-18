@@ -43,6 +43,10 @@
     margin: 0;
     text-align: center;
   }
+
+  @media (max-width: $vp-767) {
+    width: 100%;
+  }
 }
 
 .booking__text-wrapper h3 {
@@ -74,7 +78,8 @@
   }
 
   @media (max-width: $vp-767) {
-    width: 257px;
+    width: 89%;
+    max-width: 480px;
     margin: 0 auto 30px auto;
   }
 }
@@ -86,7 +91,8 @@
 
   @media (max-width: $vp-767) {
     padding: 40px 30px;
-    width: 290px;
+    width: 100%;
+    max-width: 600px;
   }
 }
 
@@ -112,6 +118,12 @@
 .booking__label-wrapper {
   margin: 0 0 20px 0;
   position: relative;
+}
+
+.booking__label-wrapper--agreement {
+  @media (max-width: $vp-767) {
+    max-width: 310px;
+  }
 }
 
 .booking__label-wrapper input {
@@ -201,6 +213,6 @@
   }
 
   @media (max-width: $vp-767) {
-    padding: 14px 50px;
+    padding: 14px 52px;
   }
 }
