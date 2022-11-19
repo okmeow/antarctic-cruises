@@ -39,9 +39,9 @@
 }
 
 .booking__text-wrapper {
-  padding: 100px 5.2%;
+  padding: 165px 5.2% 142px 5.2%;
   margin: 0 7.2% 0 0;
-  width: 52.8%;
+  width: 52.9%;
 
   @media (max-width: $vp-1023) {
     padding: 0;
@@ -58,7 +58,7 @@
   font-size: 40px;
   line-height: 60px;
   font-weight: 700;
-  margin: 0 0 30px 0;
+  margin: 0 0 5px 0;
 
   @media (max-width: $vp-1023) {
     font-size: 34px;
@@ -92,7 +92,7 @@
 
 .booking__form-wrapper {
   background-color: #011c40;
-  padding: 50px 4.3%;
+  padding: 45px 4.3% 30px 4.3%;
   width: 34.7%;
   min-width: 345px;
 
@@ -113,7 +113,7 @@
   font-size: 18px;
   line-height: 27px;
   color: #f9fbfd;
-  margin: 0 0 35px 0;
+  margin: 0 0 25px 0;
 
   @media (max-width: $vp-767) {
     line-height: 25px;
@@ -121,21 +121,23 @@
   }
 }
 
-.booking__form-wrapper fieldset {
-  padding: 0;
-  margin: 0;
-  border: none;
-}
-
 .booking__label-wrapper {
-  margin: 0 0 20px 0;
+  margin: 0 0 21px 0;
   position: relative;
 }
 
 .booking__label-wrapper--agreement {
+  margin: -3px 0 27px 0;
+
   @media (max-width: $vp-767) {
     max-width: 310px;
   }
+}
+
+.booking__form-wrapper fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
 }
 
 .booking__label-wrapper input {
@@ -165,7 +167,7 @@
   width: 18px;
   height: 18px;
   background-color: #f9fbfd;
-  top: 5px;
+  top: 1px;
   cursor: pointer;
 }
 
@@ -206,7 +208,7 @@
 .booking__form-wrapper button {
   display: inline-block;
   vertical-align: baseline;
-  padding: 14px 89px;
+  padding: 11px 89px;
   max-width: 303px;
   font-weight: 600;
   font-size: 14px;

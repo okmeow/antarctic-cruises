@@ -17,10 +17,10 @@
 .advantages__wrapper {
   max-width: 1366px;
   margin: 0 auto;
-  padding: 120px 103px 120px 7.5%;
+  padding: 110px 103px 80px 7.5%;
 
   @media (min-width: 1500px) {
-    padding: 120px 103px 120px 103px;
+    padding: 110px 103px 120px 103px;
   }
 
   @media (max-width: $vp-1023) {
@@ -37,7 +37,8 @@
   font-size: 28px;
   line-height: 42px;
   font-weight: 600;
-  margin: 0 0 20px 0;
+  margin: 0 0 50px 0;
+  text-align: center;
 
   @media (max-width: $vp-1023) {
     font-size: 26px;
@@ -66,7 +67,7 @@
   background-color: #f9fbfd;
   width: 31%;
   margin: 0 0 40px 0;
-  padding: 87px 30px 50px 30px;
+  padding: 80px 30px 43px 30px;
 
   @media (max-width: $vp-1023) {
     width: 30.36%;
@@ -97,7 +98,7 @@
 .advantages__item--size {
   background-image: url("../img/advantages-ship.svg");
   background-repeat: no-repeat;
-  background-position: 40px 40px;
+  background-position: 30px 30px;
 
   @media (max-width: $vp-1023) {
     background-size: 21px 26px;
@@ -107,7 +108,7 @@
 .advantages__item--all-inclusive {
   background-image: url("../img/advantages-all-inclusive.svg");
   background-repeat: no-repeat;
-  background-position: 40px 40px;
+  background-position: 30px 30px;
 
   @media (max-width: $vp-1023) {
     background-size: 27px 26px;
@@ -117,7 +118,7 @@
 .advantages__item--zodiac {
   background-image: url("../img/advantages-excursions.svg");
   background-repeat: no-repeat;
-  background-position: 40px 40px;
+  background-position: 30px 30px;
 
   @media (max-width: $vp-1023) {
     background-size: 36px 26px;
@@ -128,10 +129,12 @@
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
+  margin: 0 0 10px 0;
 }
 
 .advantages__item-description {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
+  margin: 0;
 }

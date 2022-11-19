@@ -16,7 +16,7 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  padding: 120px 7.5% 135px 7.5%;
+  padding: 113px 7.5% 145px 7.5%;
 
   @media (min-width: 1400px) {
     padding: 120px 103px;
@@ -34,7 +34,7 @@
 
 .about__text-wrapper {
   width: 44.8%;
-  margin: 0 4.3% 0 0;
+  margin: 0 6.9% 0 0;
 
   @media (max-width: $vp-1023) {
     width: 48%;
@@ -52,7 +52,7 @@
   font-size: 28px;
   line-height: 42px;
   font-weight: 600;
-  margin: 30px 0 30px 0;
+  margin: 55px 0 25px 0;
 
   @media (max-width: $vp-1023) {
     font-size: 26px;

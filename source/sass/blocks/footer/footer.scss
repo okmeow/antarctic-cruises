@@ -13,11 +13,12 @@
 }
 
 .footer__wrapper {
-  padding: 40px 7.5%;
+  padding: 50px 7.5% 40px 7.5%;
   display: flex;
   flex-wrap: wrap;
   max-width: 1366px;
   margin: 0 auto;
+  justify-content: space-between;
 
   @media (max-width: $vp-1023) {
     padding: 50px 45px 50px 5.8%;

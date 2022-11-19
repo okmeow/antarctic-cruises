@@ -1,7 +1,10 @@
 .social {
   align-self: center;
+  position: relative;
+  top: 3px;
 
   @media (max-width: $vp-767) {
+    position: static;
     align-self: start;
   }
 }
