@@ -1,5 +1,9 @@
 .social {
   align-self: center;
+
+  @media (max-width: $vp-767) {
+    align-self: start;
+  }
 }
 
 .social__list {

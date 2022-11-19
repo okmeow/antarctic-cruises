@@ -103,6 +103,7 @@
   @media (max-width: $vp-767) {
     padding: 40px 30px;
     width: 100%;
+    min-width: 290px;
     max-width: 600px;
   }
 }
