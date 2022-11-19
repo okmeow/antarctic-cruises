@@ -16,7 +16,11 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  padding: 120px 100px 135px 100px;
+  padding: 120px 7.5% 135px 7.5%;
+
+  @media (min-width: 1400px) {
+    padding: 120px 103px;
+  }
 
   @media (max-width: $vp-1023) {
     padding: 100px 45px 100px 5.8%;
@@ -29,8 +33,8 @@
 }
 
 .about__text-wrapper {
-  width: 520px;
-  margin: 0 50px 0 0;
+  width: 44.8%;
+  margin: 0 4.3% 0 0;
 
   @media (max-width: $vp-1023) {
     width: 48%;
@@ -73,13 +77,13 @@
   @media (max-width: $vp-1023) {
     width: 100%;
   }
-
-  @media (max-width: $vp-767) {
-    width: 100%;
-  }
 }
 
 .about__image {
+  @media (max-width: 1295px) {
+    width: 440px;
+  }
+
   @media (max-width: $vp-1023) {
     width: 324px;
   }

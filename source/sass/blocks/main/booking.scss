@@ -17,11 +17,15 @@
 }
 
 .booking__wrapper {
-  padding: 50px 50px;
+  padding: 50px 7.5%;
   display: flex;
   flex-wrap: wrap;
   max-width: 1366px;
   margin: 0 auto;
+
+  @media (min-width: 1400px) {
+    padding: 50px 103px 50px 7.5%;
+  }
 
   @media (max-width: $vp-1023) {
     flex-direction: column;
@@ -35,8 +39,9 @@
 }
 
 .booking__text-wrapper {
-  padding: 50px 0 0 0;
-  margin: 0 100px 0 0;
+  padding: 100px 5.2%;
+  margin: 0 7.2% 0 0;
+  width: 52.8%;
 
   @media (max-width: $vp-1023) {
     padding: 0;
@@ -71,6 +76,7 @@
   line-height: 27px;
   font-weight: 400;
   margin: 0 0 30px 0;
+  width: 350px;
 
   @media (max-width: $vp-1023) {
     width: 352px;
@@ -86,8 +92,9 @@
 
 .booking__form-wrapper {
   background-color: #011c40;
-  padding: 50px;
-  width: 403px;
+  padding: 50px 4.3%;
+  width: 34.7%;
+  min-width: 345px;
 
   @media (max-width: $vp-1023) {
     width: 59.4%;
@@ -133,7 +140,7 @@
 .booking__label-wrapper input {
   border: none;
   width: 100%;
-  min-width: 250px;
+  min-width: 220px;
   height: 43px;
   background-color: #f9fbfd;
   padding: 11px 15px;
@@ -188,6 +195,7 @@
   line-height: 13px;
   padding: 5px 0 5px 23px;
   cursor: pointer;
+  display: block;
 
   @media (max-width: $vp-767) {
     display: block;
@@ -197,7 +205,7 @@
 .booking__form-wrapper button {
   display: inline-block;
   vertical-align: baseline;
-  padding: 14px 32%;
+  padding: 14px 89px;
   max-width: 303px;
   font-weight: 600;
   font-size: 14px;
@@ -207,6 +215,10 @@
   background-color: #f9fbfd;
   cursor: pointer;
   user-select: none;
+
+  @media (max-width: 1360px) {
+    padding: 14px 22.5%;
+  }
 
   &:hover {
     background-color: #949494;
