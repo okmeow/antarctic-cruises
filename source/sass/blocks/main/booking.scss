@@ -5,14 +5,28 @@
   width: 100vw;
   min-width: $vp-1024;
 
+  @media (min-width: $vp-1024) {
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/booking-background@2x.jpg");
+    }
+  }
+
   @media (max-width: $vp-1023) {
     min-width: 768px;
     background-image: url("../img/tablet/booking-background.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/tablet/booking-background@2x.jpg");
+    }
   }
 
   @media (max-width: $vp-767) {
     min-width: 320px;
     background-image: url("../img/mobile/booking-background.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/mobile/booking-background@2x.jpg");
+    }
   }
 }
 

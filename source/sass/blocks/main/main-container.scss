@@ -1,3 +1,12 @@
 .main-container {
-  margin-top: -108px;
+  margin: 0 auto;
+  min-width: 1024px;
+
+  @media (max-width: $vp-1023) {
+    min-width: 768px;
+  }
+
+  @media (max-width: $vp-767) {
+    min-width: 320px;
+  }
 }

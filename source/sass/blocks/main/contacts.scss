@@ -35,13 +35,35 @@
 .contacts__map-wrapper {
   display: inline-block;
   margin: 0 8.6% 0 0;
+  background-color: #f2efe9;
+  background-image: url("../img/map.jpg");
+  background-size: 100% auto;
+
+  @media (min-width: $vp-1024) {
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/map@2x.jpg");
+      background-size: 100% auto;
+    }
+  }
 
   @media (max-width: $vp-1023) {
     margin: 0 4.3% 0 0;
+    background-image: url("../img/tablet/map.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/tablet/map@2x.jpg");
+      background-size: 100% auto;
+    }
   }
 
   @media (max-width: $vp-767) {
     margin: 0;
+    background-image: url("../img/mobile/map.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/mobile/map@2x.jpg");
+      background-size: 100% auto;
+    }
   }
 }
 

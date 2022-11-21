@@ -5,8 +5,18 @@
   width: 100vw;
   min-width: $vp-1024;
 
+  @media (min-width: $vp-1024) {
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/advantages-background@2x.jpg");
+    }
+  }
+
   @media (max-width: $vp-1023) {
     min-width: 768px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/advantages-background@2x.jpg");
+    }
   }
 
   @media (max-width: $vp-767) {
