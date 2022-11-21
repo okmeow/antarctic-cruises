@@ -173,6 +173,10 @@
 .navigation__item:not(:last-child) {
   margin: 0 38px 0 0;
 
+  @media (max-width: $vp-1023) {
+    margin: 0 25px 0 0;
+  }
+
   @media (max-width: $vp-767) {
     margin: 0 0 10px 0;
   }

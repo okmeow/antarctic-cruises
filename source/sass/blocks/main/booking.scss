@@ -29,7 +29,7 @@
 
   @media (max-width: $vp-1023) {
     flex-direction: column;
-    padding: 100px 5.8% 50px 5.8%;
+    padding: 87px 5.8% 100px 5.8%;
     align-items: center;
   }
 
@@ -45,7 +45,7 @@
 
   @media (max-width: $vp-1023) {
     padding: 0;
-    margin: 0;
+    margin: 0 0 22px 0;
     text-align: center;
   }
 
@@ -63,6 +63,7 @@
   @media (max-width: $vp-1023) {
     font-size: 34px;
     line-height: 51px;
+    margin: 0 0 5px -30px;
   }
 
   @media (max-width: $vp-767) {
@@ -98,6 +99,7 @@
 
   @media (max-width: $vp-1023) {
     width: 59.4%;
+    padding: 45px 50px 50px 50px;
   }
 
   @media (max-width: $vp-767) {
@@ -220,7 +222,7 @@
   user-select: none;
 
   @media (max-width: 1360px) {
-    padding: 14px 22.5%;
+    padding: 11px 22.5%;
   }
 
   &:hover {
@@ -232,7 +234,7 @@
   }
 
   @media (max-width: $vp-1023) {
-    padding: 14px 89px;
+    padding: 11px 89px;
   }
 
   @media (max-width: $vp-767) {

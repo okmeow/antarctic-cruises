@@ -24,7 +24,7 @@
   }
 
   @media (max-width: $vp-1023) {
-    padding: 100px 45px 100px 5.8%;
+    padding: 90px 45px 70px 5.8%;
     text-align: center;
   }
 
@@ -73,7 +73,7 @@
     width: 30.36%;
     margin: 0 0 30px 0;
     text-align: left;
-    padding: 76px 15px 25px 20px;
+    padding: 67px 15px 20px 20px;
   }
 
   @media (max-width: $vp-767) {
@@ -102,6 +102,7 @@
 
   @media (max-width: $vp-1023) {
     background-size: 21px 26px;
+    background-position: 20px 25px;
   }
 }
 
@@ -112,6 +113,7 @@
 
   @media (max-width: $vp-1023) {
     background-size: 27px 26px;
+    background-position: 20px 25px;
   }
 }
 
@@ -122,6 +124,7 @@
 
   @media (max-width: $vp-1023) {
     background-size: 36px 26px;
+    background-position: 20px 25px;
   }
 }
 
@@ -130,6 +133,16 @@
   line-height: 27px;
   font-weight: 400;
   margin: 0 0 10px 0;
+}
+
+.advantages__item-name--zodiac {
+  @media (max-width: $vp-1023) {
+    margin: 0 0 20px 0;
+  }
+
+  @media (max-width: $vp-767) {
+    margin: 0;
+  }
 }
 
 .advantages__item-description {

@@ -20,6 +20,10 @@
 
 .social__item:not(:last-child) {
   margin-right: 27px;
+
+  @media (max-width: $vp-1023) {
+    margin-right: 23px;
+  }
 }
 
 .social__link {

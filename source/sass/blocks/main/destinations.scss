@@ -17,7 +17,7 @@
   margin: 0 auto;
 
   @media (max-width: $vp-1023) {
-    padding: 100px 45px 100px 5.8%;
+    padding: 88px 45px 100px 5.8%;
   }
 
   @media (max-width: $vp-767) {
@@ -82,6 +82,10 @@
   font-size: 18px;
   line-height: 27px;
   color: #f9fbfd;
+
+  @media (max-width: $vp-1023) {
+    margin: 330px 0 0 35px;
+  }
 }
 
 .destinations__extra {

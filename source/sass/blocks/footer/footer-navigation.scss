@@ -23,6 +23,10 @@
 
 .footer-navigation__item:not(:last-child) {
   margin-right: 35px;
+
+  @media (max-width: $vp-1023) {
+    margin-right: 25px;
+  }
 }
 
 .footer-navigation__logo {
@@ -34,6 +38,10 @@
 
 .footer-navigation__logo-link {
   margin: 0 40px 0 0;
+
+  @media (max-width: $vp-1023) {
+    margin: 0 26px 0 0;
+  }
 
   @media (max-width: $vp-767) {
     margin: 0 0 30px 0;
