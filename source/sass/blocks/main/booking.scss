@@ -34,7 +34,7 @@
   }
 
   @media (max-width: $vp-767) {
-    padding: 65px 15px 50px 15px;
+    padding: 58px 15px 65px 15px;
   }
 }
 
@@ -51,6 +51,7 @@
 
   @media (max-width: $vp-767) {
     width: 100%;
+    margin: 0 0 32px 0;
   }
 }
 
@@ -69,6 +70,9 @@
   @media (max-width: $vp-767) {
     font-size: 24px;
     line-height: 31px;
+    width: 89%;
+    max-width: 480px;
+    margin: 0 auto 15px auto;
   }
 }
 
@@ -87,7 +91,17 @@
   @media (max-width: $vp-767) {
     width: 89%;
     max-width: 480px;
-    margin: 0 auto 30px auto;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+.booking__text-br {
+  display: none;
+
+  @media (max-width: $vp-767) {
+    display: inline;
   }
 }
 
@@ -103,7 +117,7 @@
   }
 
   @media (max-width: $vp-767) {
-    padding: 40px 30px;
+    padding: 35px 30px 40px 30px;
     width: 100%;
     min-width: 290px;
     max-width: 600px;
@@ -120,6 +134,7 @@
   @media (max-width: $vp-767) {
     line-height: 25px;
     text-align: center;
+    margin: 0 0 28px 0;
   }
 }
 
@@ -133,6 +148,7 @@
 
   @media (max-width: $vp-767) {
     max-width: 310px;
+    margin: -3px 0 20px 0;
   }
 }
 
@@ -204,6 +220,7 @@
 
   @media (max-width: $vp-767) {
     display: block;
+    padding: 0 0 5px 25px;
   }
 }
 
@@ -238,6 +255,6 @@
   }
 
   @media (max-width: $vp-767) {
-    padding: 14px 52px;
+    padding: 11px 53px;
   }
 }

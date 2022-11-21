@@ -27,7 +27,7 @@
   }
 
   @media (max-width: $vp-767) {
-    padding: 65px 4.7%;
+    padding: 57px 4.7% 60px 4.7%;
     flex-direction: column-reverse;
   }
 }
@@ -84,6 +84,8 @@
   @media (max-width: $vp-767) {
     width: 100%;
     max-width: 600px;
+    margin-top: 0;
+    padding: 0 0 35px 0;
   }
 }
 

@@ -21,7 +21,7 @@
   }
 
   @media (max-width: $vp-767) {
-    padding: 65px 15px;
+    padding: 60px 15px 65px 15px;
   }
 }
 
@@ -40,6 +40,7 @@
   @media (max-width: $vp-767) {
     font-size: 24px;
     line-height: 36px;
+    margin: 0 0 30px 0;
   }
 }
 
@@ -57,6 +58,7 @@
 
   @media (max-width: $vp-767) {
     grid-template-columns: 1fr;
+    padding: 0 10px 0 10px;
   }
 }
 
@@ -85,6 +87,10 @@
 
   @media (max-width: $vp-1023) {
     margin: 330px 0 0 35px;
+  }
+
+  @media (max-width: $vp-767) {
+    margin: 340px 0 0 25px;
   }
 }
 
