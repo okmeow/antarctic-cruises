@@ -174,7 +174,6 @@
   text-decoration: none;
   padding: 15px 45px;
   display: block;
-  // vertical-align: baseline;
   margin: 0 auto;
 
   @media (min-width: $vp-1024) {
@@ -194,9 +193,13 @@
 
 .destinations__item--astoria {
   background-image: url("../img/destinations-astoria.jpg");
+  // background-size: 100% 100%;
 
   // @media (max-width: $vp-1023) {
-  //   background-image: url("../img/tablet/destinations-astoria.jpg");
+    // background-image: url("../img/tablet/destinations-astoria.jpg");
+    // background-size: cover
+    // background-size: 100% 100%;
+    // background-position: 0 -20px;
   // }
 }
 
@@ -227,9 +230,9 @@
 .destinations__item--olimpia {
   background-image: url("../img/destinations-olimpia.jpg");
 
-  // @media (max-width: $vp-1023) {
-  //   background-image: url("../img/tablet/destinations-olimpia.jpg");
-  // }
+  @media (max-width: $vp-1023) {
+    // background-image: url("../img/tablet/destinations-olimpia.jpg");
+  }
 }
 
 .destinations__item--aurora {
