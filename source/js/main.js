@@ -12,6 +12,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
   iosVhFix();
 
+  // test after deleting
+
   destinationCardToggler();
   mobileMenuHandler();
 
