@@ -193,70 +193,98 @@
 
 .destinations__item--astoria {
   background-image: url("../img/destinations-astoria.jpg");
-  // background-size: 100% 100%;
 
-  // @media (max-width: $vp-1023) {
-    // background-image: url("../img/tablet/destinations-astoria.jpg");
-    // background-size: cover
-    // background-size: 100% 100%;
-    // background-position: 0 -20px;
-  // }
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-astoria.jpg");
+  }
+
+  @media (max-width: $vp-767) {
+    background-image: url("../img/mobile/destinations-astoria.jpg");
+  }
 }
 
 .destinations__item--elain {
   background-image: url("../img/destinations-elain.jpg");
 
-  // @media (max-width: $vp-1023) {
-  //   background-image: url("../img/tablet/destinations-elain.jpg");
-  // }
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-elain.jpg");
+  }
+
+  @media (max-width: $vp-767) {
+    background-image: url("../img/mobile/destinations-elain.jpg");
+  }
 }
 
 .destinations__item--atlantis {
   background-image: url("../img/destinations-atlantis.jpg");
 
-  // @media (max-width: $vp-1023) {
-  //   background-image: url("../img/tablet/destinations-atlantis.jpg");
-  // }
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-atlantis.jpg");
+  }
+
+  @media (max-width: $vp-767) {
+    background-image: url("../img/mobile/destinations-atlantis.jpg");
+  }
 }
 
 .destinations__item--odissey {
   background-image: url("../img/destinations-odissey.jpg");
 
-  // @media (max-width: $vp-1023) {
-  //   background-image: url("../img/tablet/destinations-odissey.jpg");
-  // }
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-odissey.jpg");
+  }
+
+  @media (max-width: $vp-767) {
+    background-image: url("../img/mobile/destinations-odissey.jpg");
+  }
 }
 
 .destinations__item--olimpia {
   background-image: url("../img/destinations-olimpia.jpg");
 
   @media (max-width: $vp-1023) {
-    // background-image: url("../img/tablet/destinations-olimpia.jpg");
+    background-image: url("../img/tablet/destinations-olimpia.jpg");
+  }
+
+  @media (max-width: $vp-767) {
+    background-image: url("../img/mobile/destinations-olimpia.jpg");
   }
 }
 
 .destinations__item--aurora {
   background-image: url("../img/destinations-aurora.jpg");
 
-  // @media (max-width: $vp-1023) {
-  //   background-image: url("../img/tablet/destinations-aurora.jpg");
-  // }
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-aurora.jpg");
+  }
+
+  @media (max-width: $vp-767) {
+    background-image: url("../img/mobile/destinations-aurora.jpg");
+  }
 }
 
 .destinations__item--leonor {
   background-image: url("../img/destinations-leonor.jpg");
 
-  // @media (max-width: $vp-1023) {
-  //   background-image: url("../img/tablet/destinations-leonor.jpg");
-  // }
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-leonor.jpg");
+  }
+
+  @media (max-width: $vp-767) {
+    background-image: url("../img/mobile/destinations-leonor.jpg");
+  }
 }
 
 .destinations__item--minion {
   background-image: url("../img/destinations-minion.jpg");
 
-  // @media (max-width: $vp-1023) {
-  //   background-image: url("../img/tablet/destinations-minion.jpg");
-  // }
+  @media (max-width: $vp-1023) {
+    background-image: url("../img/tablet/destinations-minion.jpg");
+  }
+
+  @media (max-width: $vp-767) {
+    background-image: url("../img/mobile/destinations-minion.jpg");
+  }
 }
 
 .destinations__item:focus {
