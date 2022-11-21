@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   iosVhFix();
 
-  // test-test-test-test-test
+  // test-test-test
 
   destinationCardToggler();
   mobileMenuHandler();
