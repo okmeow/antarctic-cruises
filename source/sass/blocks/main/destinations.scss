@@ -16,6 +16,10 @@
   max-width: 1366px;
   margin: 0 auto;
 
+  @media (min-width: 1367px) {
+    padding: 83px 103px 120px 103px;
+  }
+
   @media (max-width: $vp-1023) {
     padding: 88px 45px 100px 5.8%;
   }
@@ -67,6 +71,10 @@
   min-height: 386px;
   background-color: #011c40;
   background-size: cover;
+
+  @media (min-width: 1367px) {
+    width: 260px;
+  }
 
   @media (max-width: $vp-1023) {
     width: 309px;
@@ -127,6 +135,7 @@
 
   @media (max-width: $vp-1023) {
     width: 260px;
+    padding: 25px 25px 25px 25px;
   }
 }
 

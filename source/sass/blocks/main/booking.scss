@@ -37,8 +37,8 @@
   max-width: 1366px;
   margin: 0 auto;
 
-  @media (min-width: 1400px) {
-    padding: 50px 103px 50px 7.5%;
+  @media (min-width: 1367px) {
+    padding: 50px 103px 50px 103px;
   }
 
   @media (max-width: $vp-1023) {
@@ -124,6 +124,10 @@
   padding: 45px 4.3% 30px 4.3%;
   width: 34.7%;
   min-width: 345px;
+
+  @media (min-width: 1367px) {
+    width: 403px;
+  }
 
   @media (max-width: $vp-1023) {
     width: 59.4%;

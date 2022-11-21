@@ -20,6 +20,10 @@
   margin: 0 auto;
   justify-content: space-between;
 
+  @media (max-width: 1100px) {
+    padding: 50px 5.5% 40px 5.5%;
+  }
+
   @media (max-width: $vp-1023) {
     padding: 50px 45px 50px 5.8%;
     justify-content: space-between;
