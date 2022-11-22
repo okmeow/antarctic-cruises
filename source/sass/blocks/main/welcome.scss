@@ -33,7 +33,7 @@
   }
 }
 
-.welcome__wrapper {
+.welcome div {
   max-width: 1366px;
   margin: -108px auto 0 auto;
   padding: 270px 200px 285px 200px;
@@ -50,7 +50,7 @@
   }
 }
 
-.welcome__title {
+.welcome h1 {
   color: #f9fbfd;
   font-size: 54px;
   line-height: 66px;
@@ -70,7 +70,7 @@
   }
 }
 
-.welcome__description {
+.welcome p {
   color: #f9fbfd;
   font-size: 20px;
   line-height: 24px;

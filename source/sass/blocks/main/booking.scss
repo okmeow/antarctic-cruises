@@ -30,7 +30,7 @@
   }
 }
 
-.booking__wrapper {
+.booking > div {
   padding: 50px 7.5%;
   display: flex;
   flex-wrap: wrap;
@@ -79,6 +79,7 @@
     font-size: 34px;
     line-height: 51px;
     margin: 0 0 5px -30px;
+    width: 420px;
   }
 
   @media (max-width: $vp-767) {

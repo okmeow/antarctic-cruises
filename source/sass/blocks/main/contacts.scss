@@ -11,7 +11,7 @@
   }
 }
 
-.contacts__wrapper {
+.contacts > div {
   max-width: 1366px;
   margin: 0 auto;
   padding: 120px 7.5% 113px 7.5%;
@@ -112,7 +112,7 @@
   }
 }
 
-.contacts__title {
+.contacts__text-wrapper h2 {
   color: #011c40;
   font-weight: 400;
   font-size: 18px;
@@ -124,7 +124,7 @@
   }
 }
 
-.contacts__address {
+.contacts__text-wrapper p {
   color: #011c40;
   font-weight: 400;
   font-size: 16px;
@@ -140,7 +140,7 @@
   }
 }
 
-.contacts__phone {
+.contacts__text-wrapper a {
   color: #011c40;
   font-weight: 400;
   font-size: 16px;

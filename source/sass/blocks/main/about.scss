@@ -32,7 +32,7 @@
   }
 }
 
-.about__text-wrapper {
+.about__wrapper div {
   width: 44.8%;
   margin: 0 6.9% 0 0;
 
@@ -48,7 +48,7 @@
   }
 }
 
-.about__title {
+.about__wrapper h2 {
   font-size: 28px;
   line-height: 42px;
   font-weight: 600;
@@ -68,7 +68,7 @@
   }
 }
 
-.about__description {
+.about__wrapper p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -79,7 +79,7 @@
   }
 }
 
-.about__image {
+.about__wrapper img {
   @media (max-width: 1365px) {
     width: 420px;
   }
