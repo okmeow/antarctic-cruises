@@ -1,4 +1,4 @@
-import { isHighResolutionScreen, isTabKey } from "./utils.js";
+import {isHighResolutionScreen, isTabKey} from './utils.js';
 
 const Destinations = {
   ASTORIA: 0,
