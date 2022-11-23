@@ -113,6 +113,12 @@
   }
 }
 
+.advantages__item:nth-child(3n) {
+  @media (min-width: 768px) {
+    margin-right: 0;
+  }
+}
+
 .advantages__item--size {
   background-image: url("../img/advantages-ship.svg");
   background-repeat: no-repeat;
