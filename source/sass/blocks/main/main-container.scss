@@ -1,6 +1,7 @@
 .main-container {
   margin: 0 auto;
   min-width: 1024px;
+  flex-grow: 1;
 
   @media (max-width: $vp-1023) {
     min-width: 768px;
