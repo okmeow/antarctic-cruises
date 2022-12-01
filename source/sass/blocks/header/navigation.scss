@@ -140,10 +140,11 @@
   @media (max-width: $vp-767) {
     position: absolute;
     flex-direction: column;
-    left: -270px;
+    right: -20px;
     top: -30px;
     background-color: #f9fbfd;
-    width: 285px;
+    width: calc(100vw - 35px);
+    max-width: 740px;
     padding: 75px 7px 235px 7px;
     background-image: url("../img/mobile/logo-menu.svg");
     background-position: 15px 20px;
