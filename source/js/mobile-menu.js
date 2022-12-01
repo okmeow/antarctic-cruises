@@ -40,7 +40,7 @@ const mobileMenuHandler = () => {
 };
 
 const clickOutsideModalMenu = (evt) => {
-  if (evt.target.classList.contains('navigation__list')) {
+  if (evt.target.classList.contains('navigation__list') || evt.target.classList.contains('navigation__item')) {
     return evt;
   }
   return closeMobileMenu();
