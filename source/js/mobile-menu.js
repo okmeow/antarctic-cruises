@@ -16,7 +16,9 @@ const openMobileMenu = () => {
   navToggle.classList.remove('navigation__toggle--open');
   navToggle.classList.add('navigation__toggle--close');
   body.style.overflow = 'hidden';
-  document.addEventListener('mouseup', clickOutsideModalMenu);
+  navToggle.removeEventListener('click', openMobileMenu);
+  navToggle.addEventListener('click', closeMobileMenu);
+  document.addEventListener('mouseup', clickOutsideMobileMenu);
 };
 
 const closeMobileMenu = () => {
@@ -24,25 +26,19 @@ const closeMobileMenu = () => {
   navToggle.classList.remove('navigation__toggle--close');
   navToggle.classList.add('navigation__toggle--open');
   body.style.overflow = 'scroll';
-  document.removeEventListener('mouseup', clickOutsideModalMenu);
-};
-
-const toggleMobileMenu = () => {
-  if (nav.classList.contains('navigation--closed')) {
-    openMobileMenu();
-  } else {
-    closeMobileMenu();
-  }
+  navToggle.removeEventListener('click', closeMobileMenu);
+  navToggle.addEventListener('click', openMobileMenu);
 };
 
 const mobileMenuHandler = () => {
-  navToggle.addEventListener('click', toggleMobileMenu);
+  navToggle.addEventListener('click', openMobileMenu);
 };
 
-const clickOutsideModalMenu = (evt) => {
-  if (evt.target.classList.contains('navigation__list') || evt.target.classList.contains('navigation__item')) {
+const clickOutsideMobileMenu = (evt) => {
+  if (evt.target.classList.contains('navigation__list') || evt.target.classList.contains('navigation__item') || evt.target.classList.contains('navigation__toggle')) {
     return evt;
   }
+
   return closeMobileMenu();
 };
 
