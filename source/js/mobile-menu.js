@@ -28,6 +28,7 @@ const closeMobileMenu = () => {
   body.style.overflow = 'scroll';
   navToggle.removeEventListener('click', closeMobileMenu);
   navToggle.addEventListener('click', openMobileMenu);
+  document.removeEventListener('mouseup', clickOutsideMobileMenu);
 };
 
 const mobileMenuHandler = () => {
