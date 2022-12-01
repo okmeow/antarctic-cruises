@@ -2214,14 +2214,17 @@ button,
     -ms-flex-direction: column;
     flex-direction: column;
     right: -20px;
-    top: -30px;
+    top: -32px;
     background-color: #f9fbfd;
-    width: calc(100vw - 35px);
+    width: calc(100vw - 30px);
     max-width: 740px;
     padding: 75px 7px 235px 7px;
+    min-height: 100vh;
     background-image: url("../img/mobile/logo-menu.svg");
     background-position: 15px 20px;
     background-repeat: no-repeat;
+    -webkit-box-shadow: 0 0 0 50px rgba(0, 43, 102, 0.5);
+    box-shadow: 0 0 0 50px rgba(0, 43, 102, 0.5);
   }
 
   .navigation--closed .navigation__list {
@@ -2230,9 +2233,12 @@ button,
 
   .navigation--nojs .navigation__list {
     position: static;
-    margin: -20px 0 88px 0;
+    margin: -42px 0 42px 0;
     display: block;
     padding: 75px 7px 20px 7px;
+    min-height: 0;
+    -webkit-box-shadow: -50px -50px 0 50px rgba(0, 43, 102, 0.5);
+    box-shadow: -50px -50px 0 50px rgba(0, 43, 102, 0.5);
   }
 
   .navigation--nojs .navigation__toggle {
@@ -2244,7 +2250,7 @@ button,
   }
 
   .navigation__item:not(:last-child) {
-    margin: 0 0 7px 0;
+    margin: 0 0 8px 0;
   }
 
   .navigation__item a {
