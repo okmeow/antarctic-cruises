@@ -2213,10 +2213,10 @@ button,
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    right: -20px;
+    right: -15px;
     top: -32px;
     background-color: #f9fbfd;
-    width: calc(100vw - 30px);
+    width: calc(100vw - 35px);
     max-width: 740px;
     padding: 75px 7px 235px 7px;
     min-height: 100vh;
