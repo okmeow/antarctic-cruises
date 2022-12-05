@@ -35,16 +35,16 @@
 
 .welcome div {
   max-width: 1366px;
-  margin: -108px auto 0 auto;
+  margin: 0 auto;
   padding: 270px 200px 285px 200px;
 
   @media (max-width: $vp-1023) {
-    margin: -86px auto 0 auto;
+    margin: 0 auto;
     padding: 268px 45px 277px 5.8%;
   }
 
   @media (max-width: $vp-767) {
-    margin: -62px auto 0 auto;
+    margin: 0 auto;
     background-size: 100% auto;
     padding: 174px 4.7% 180px 4.7%;
   }

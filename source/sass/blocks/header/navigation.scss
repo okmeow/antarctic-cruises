@@ -135,7 +135,11 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  max-width: 650px;
+  max-width: 850px;
+
+  @media (max-width: $vp-1023) {
+    max-width: 550px;
+  }
 
   @media (max-width: $vp-767) {
     position: absolute;
@@ -145,7 +149,7 @@
     top: -32px;
     background-color: #f9fbfd;
     width: calc(100vw - 35px);
-    max-width: 740px;
+    max-width: 305px;
     padding: 75px 7px 23px 7px;
     height: 100vh;
     overflow-y: scroll;
