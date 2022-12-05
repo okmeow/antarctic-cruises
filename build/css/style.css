@@ -1087,10 +1087,12 @@ button,
 }
 
 .destinations__extra {
-  padding: 25px 25px 25px 25px;
+  padding: 28px 25px 25px 25px;
   display: none;
   position: absolute;
   width: 260px;
+  height: 386px;
+  overflow-y: scroll;
   margin: 0 auto;
 }
 
@@ -1099,7 +1101,11 @@ button,
   font-size: 18px;
   line-height: 27px;
   color: #f9fbfd;
-  margin: 0;
+  margin: 0 0 16px 0;
+}
+
+.destinations__extra-wrapper {
+  margin: 0 0 25px 0;
 }
 
 .destinations__extra-dt {
@@ -1116,7 +1122,7 @@ button,
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  margin: 0 0 15px 0;
+  margin: 0 0 12px 0;
   padding: 0;
 }
 
@@ -1127,9 +1133,10 @@ button,
   color: #011c40;
   background-color: #f9fbfd;
   text-decoration: none;
-  padding: 15px 45px;
+  padding: 9px 45px;
   display: block;
   margin: 0 auto;
+  text-align: center;
 }
 
 .destinations__extra-button:hover {
@@ -1679,14 +1686,13 @@ button,
 
 @media (max-width: 1300px) {
   .destinations__extra {
-    padding: 10px;
+    padding: 28px 20px 20px 20px;
     width: 240px;
   }
 }
 
 @media (max-width: 1250px) {
   .destinations__extra {
-    padding: 7px;
     width: 220px;
   }
 }
@@ -1699,7 +1705,6 @@ button,
 
 @media (max-width: 1200px) {
   .destinations__extra {
-    padding: 5px;
     width: 200px;
   }
 }
@@ -1713,7 +1718,6 @@ button,
 @media (max-width: 1100px) {
   .destinations__extra {
     width: 181px;
-    padding: 5px;
   }
 
   .contacts__map {
@@ -1879,8 +1883,16 @@ button,
   }
 
   .destinations__extra {
-    width: 260px;
-    padding: 25px 25px 25px 25px;
+    width: 309px;
+    padding: 28px 35px 35px 35px;
+  }
+
+  .destinations__extra-title {
+    margin: 0 0 14px 0;
+  }
+
+  .destinations__extra-dd {
+    margin: 0 0 12px 0;
   }
 
   .destinations__item--astoria {
@@ -2378,6 +2390,15 @@ button,
     margin: 340px 0 0 25px;
   }
 
+  .destinations__extra {
+    width: 270px;
+    padding: 27px 25px 25px 25px;
+  }
+
+  .destinations__extra-wrapper {
+    margin: 0 0 27px 0;
+  }
+
   .destinations__item--astoria {
     background-image: url("../img/mobile/destinations-astoria.jpg");
   }
@@ -2608,7 +2629,7 @@ button,
 
 @media (min-width: 1024px) and (max-width: 1300px) {
   .destinations__extra-button {
-    padding: 15px 27px;
+    padding: 9px 10px;
   }
 }
 
