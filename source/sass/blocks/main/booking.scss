@@ -247,8 +247,8 @@
 .booking__form-wrapper button {
   display: inline-block;
   vertical-align: baseline;
-  padding: 11px 89px;
-  max-width: 303px;
+  padding: 11px 20px;
+  width: 100%;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
@@ -258,23 +258,11 @@
   cursor: pointer;
   user-select: none;
 
-  @media (max-width: 1360px) {
-    padding: 11px 22.5%;
-  }
-
   &:hover {
     background-color: #949494;
   }
 
   &:active {
     background-color: #93d8fa;
-  }
-
-  @media (max-width: $vp-1023) {
-    padding: 11px 89px;
-  }
-
-  @media (max-width: $vp-767) {
-    padding: 11px 53px;
   }
 }

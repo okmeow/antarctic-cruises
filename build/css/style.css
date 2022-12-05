@@ -1314,8 +1314,8 @@ button,
 .booking__form-wrapper button {
   display: inline-block;
   vertical-align: baseline;
-  padding: 11px 89px;
-  max-width: 303px;
+  padding: 11px 20px;
+  width: 100%;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
@@ -1676,12 +1676,6 @@ button,
   }
 }
 
-@media (max-width: 1360px) {
-  .booking__form-wrapper button {
-    padding: 11px 22.5%;
-  }
-}
-
 @media (max-width: 1300px) {
   .destinations__extra {
     padding: 10px;
@@ -1957,10 +1951,6 @@ button,
   .booking__form-wrapper {
     width: 59.4%;
     padding: 45px 50px 50px 50px;
-  }
-
-  .booking__form-wrapper button {
-    padding: 11px 89px;
   }
 
   .contacts {
@@ -2477,10 +2467,6 @@ button,
   .booking__checkbox-text {
     display: block;
     padding: 0 0 5px 25px;
-  }
-
-  .booking__form-wrapper button {
-    padding: 11px 53px;
   }
 
   .contacts {
