@@ -1574,7 +1574,7 @@ button,
 */
 
 @media (min-width: 768px) {
-  .advantages__item:nth-child(3n) {
+  .advantages__list .advantages__item:nth-child(3n) {
     margin-right: 0;
   }
 }
@@ -1833,7 +1833,7 @@ button,
   }
 
   .advantages__item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 4.42%;
   }
 
   .advantages__item--size {
