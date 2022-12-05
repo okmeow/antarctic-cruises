@@ -82,7 +82,8 @@
   }
 
   @media (max-width: $vp-767) {
-    width: 270px;
+    width: 100%;
+    max-width: 410px;
   }
 }
 

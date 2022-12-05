@@ -2369,7 +2369,8 @@ button,
   }
 
   .destinations__item {
-    width: 270px;
+    width: 100%;
+    max-width: 410px;
   }
 
   .destinations__item-description {
