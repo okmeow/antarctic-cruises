@@ -82,11 +82,12 @@
 .about__wrapper img {
   @media (max-width: 1365px) {
     width: 420px;
+    margin-top: 60px;
   }
 
   @media (max-width: $vp-1023) {
     width: 324px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   @media (max-width: $vp-767) {

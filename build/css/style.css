@@ -1667,6 +1667,7 @@ button,
 @media (max-width: 1365px) {
   .about__wrapper img {
     width: 420px;
+    margin-top: 60px;
   }
 }
 
@@ -1802,7 +1803,7 @@ button,
 
   .about__wrapper img {
     width: 324px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .advantages {
