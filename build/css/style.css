@@ -2032,6 +2032,10 @@ button,
     height: 16px;
   }
 
+  .footer-navigation__list {
+    max-width: 480px;
+  }
+
   .footer-navigation__item:not(:last-child) {
     margin-right: 25px;
   }
@@ -2559,6 +2563,7 @@ button,
   }
 
   .footer-navigation__list {
+    max-width: 270px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
