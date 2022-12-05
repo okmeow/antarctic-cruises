@@ -2216,13 +2216,16 @@ button,
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
     right: -15px;
     top: -32px;
     background-color: #f9fbfd;
     width: calc(100vw - 35px);
     max-width: 740px;
-    padding: 75px 7px 235px 7px;
-    min-height: 100vh;
+    padding: 75px 7px 23px 7px;
+    height: 100vh;
+    overflow-y: scroll;
     background-image: url("../img/mobile/logo-menu.svg");
     background-position: 15px 20px;
     background-repeat: no-repeat;
@@ -2239,7 +2242,8 @@ button,
     margin: -42px 0 42px 0;
     display: block;
     padding: 75px 7px 20px 7px;
-    min-height: 0;
+    min-height: 50px;
+    height: auto;
     -webkit-box-shadow: -50px -50px 0 50px rgba(0, 43, 102, 0.5);
     box-shadow: -50px -50px 0 50px rgba(0, 43, 102, 0.5);
   }
