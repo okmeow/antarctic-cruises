@@ -784,10 +784,10 @@ button,
   margin: 0 auto;
   background-color: transparent;
   z-index: 2;
+  position: absolute;
 }
 
 .header__wrapper {
-  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -4,6 +4,7 @@
   margin: 0 auto;
   background-color: transparent;
   z-index: 2;
+  position: absolute;
 
   @media (max-width: $vp-1023) {
     min-width: 768px;
@@ -15,7 +16,6 @@
 }
 
 .header__wrapper {
-  position: absolute;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
