@@ -422,6 +422,7 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 a {

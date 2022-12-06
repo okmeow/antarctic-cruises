@@ -34,6 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: $color-default-white;
+  overflow-x: hidden;
 }
 
 a {
