@@ -2257,12 +2257,9 @@ button,
     background-color: #f9fbfd;
     width: calc(100vw - 35px);
     max-width: 732px;
-    padding: 75px 7px 23px 7px;
+    padding: 20px 7px 23px 7px;
     height: 100vh;
     overflow-y: scroll;
-    background-image: url("../img/mobile/logo-menu.svg");
-    background-position: 15px 20px;
-    background-repeat: no-repeat;
     -webkit-box-shadow: 0 0 0 35px rgba(0, 43, 102, 0.5);
     box-shadow: 0 0 0 35px rgba(0, 43, 102, 0.5);
   }
@@ -2288,6 +2285,13 @@ button,
 
   .navigation__item {
     padding: 10px 10px 8px 10px;
+  }
+
+  .navigation__item:first-child {
+    padding: 65px 10px 8px 10px;
+    background-image: url("../img/mobile/logo-menu.svg");
+    background-position: 5px 0;
+    background-repeat: no-repeat;
   }
 
   .navigation__item:not(:last-child) {
