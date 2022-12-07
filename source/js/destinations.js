@@ -55,184 +55,184 @@ const hideExtraDescription = () => {
       case Destinations.ASTORIA:
         if (isHighResolutionScreen) {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-astoria@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-astoria@2x.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-astoria@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-astoria@2x.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-astoria@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-astoria@2x.jpg")';
           }
         } else {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-astoria.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-astoria.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-astoria.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-astoria.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-astoria.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-astoria.jpg")';
           }
         }
         break;
       case Destinations.ELAIN:
         if (isHighResolutionScreen) {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-elain@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-elain@2x.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-elain@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-elain@2x.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-elain@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-elain@2x.jpg")';
           }
         } else {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-elain.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-elain.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-elain.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-elain.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-elain.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-elain.jpg")';
           }
         }
         break;
       case Destinations.ATLANTIS:
         if (isHighResolutionScreen) {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-atlantis@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-atlantis@2x.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-atlantis@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-atlantis@2x.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-atlantis@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-atlantis@2x.jpg")';
           }
         } else {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-atlantis.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-atlantis.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-atlantis.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-atlantis.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-atlantis.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-atlantis.jpg")';
           }
         }
         break;
       case Destinations.ODISSEY:
         if (isHighResolutionScreen) {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-odissey@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-odissey@2x.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-odissey@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-odissey@2x.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-odissey@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-odissey@2x.jpg")';
           }
         } else {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-odissey.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-odissey.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-odissey.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-odissey.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-odissey.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-odissey.jpg")';
           }
         }
         break;
       case Destinations.OLIMPIA:
         if (isHighResolutionScreen) {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-olimpia@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-olimpia@2x.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-olimpia@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-olimpia@2x.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-olimpia@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-olimpia@2x.jpg")';
           }
         } else {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-olimpia.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-olimpia.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-olimpia.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-olimpia.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-olimpia.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-olimpia.jpg")';
           }
         }
         break;
       case Destinations.AURORA:
         if (isHighResolutionScreen) {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-aurora@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-aurora@2x.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-aurora@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-aurora@2x.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-aurora@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-aurora@2x.jpg")';
           }
         } else {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-aurora.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-aurora.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-aurora.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-aurora.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-aurora.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-aurora.jpg")';
           }
         }
         break;
       case Destinations.LEONOR:
         if (isHighResolutionScreen) {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-leonor@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-leonor@2x.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-leonor@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-leonor@2x.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-leonor@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-leonor@2x.jpg")';
           }
         } else {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-leonor.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-leonor.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-leonor.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-leonor.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-leonor.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-leonor.jpg")';
           }
         }
         break;
       case Destinations.MINION:
         if (isHighResolutionScreen) {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-minion@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-minion@2x.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-minion@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-minion@2x.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-minion@2x.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-minion@2x.jpg")';
           }
         } else {
           if (window.innerWidth >= 1024) {
-            destinationElements[i].style.backgroundImage = 'url("../img/destinations-minion.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/destinations-minion.jpg")';
           }
           if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
-            destinationElements[i].style.backgroundImage = 'url("../img/tablet/destinations-minion.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/tablet/destinations-minion.jpg")';
           }
           if (window.innerWidth <= 767) {
-            destinationElements[i].style.backgroundImage = 'url("../img/mobile/destinations-minion.jpg")';
+            destinationElements[i].style.backgroundImage = 'url("./img/mobile/destinations-minion.jpg")';
           }
         }
         break;
