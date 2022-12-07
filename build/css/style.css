@@ -1469,11 +1469,15 @@ button,
   align-items: center;
   margin: 0;
   padding: 0;
-  max-width: 150px;
+  max-width: 110px;
 }
 
 .social__item:not(:last-child) {
   margin-right: 27px;
+}
+
+.social__list .social__item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .social__item a {
@@ -2017,6 +2021,10 @@ button,
 
   .footer__navigation {
     margin: 0 40px 0 0;
+  }
+
+  .social__list {
+    max-width: 95px;
   }
 
   .social__item:not(:last-child) {
