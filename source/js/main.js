@@ -1,6 +1,6 @@
 import {iosVhFix} from './utils/ios-vh-fix';
 import {initModals} from './modules/modals/init-modals';
-import {destinationCardToggler} from './destinations.js';
+import {destinationCardToggler, cardsSizeHandler} from './destinations.js';
 import {mobileMenuHandler} from './mobile-menu.js';
 
 // ---------------------------------
@@ -12,6 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   iosVhFix();
 
+  cardsSizeHandler();
   destinationCardToggler();
   mobileMenuHandler();
 

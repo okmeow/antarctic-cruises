@@ -11,6 +11,12 @@ const Destinations = {
   MINION: 7,
 };
 
+const WidthHeightCardsConstants = {
+  DESKTOP: 1.4846,
+  TABLET: 1.2492,
+  MOBILE: 1.4296,
+};
+
 const destinationElements = document.querySelectorAll('.destinations__item');
 const destinationExtraElements = document.querySelectorAll('.destinations__extra');
 const destinationDescriptionElements = document.querySelectorAll('.destinations__item-description');
@@ -264,4 +270,30 @@ const destinationCardToggler = () => {
   destinationElementsGetPreviousFocus();
 };
 
-export {destinationCardToggler};
+// Блок кода, меняющий размеры карточек на резине
+
+const setCardsSize = () => {
+  for (let i = 0; i < destinationElements.length; i++) {
+    destinationExtraElements[i].style.width = destinationElements[i].offsetWidth + 'px';
+    if (window.innerWidth >= 1024) {
+      destinationElements[i].style.height = destinationElements[i].offsetWidth * WidthHeightCardsConstants.DESKTOP + 'px';
+      destinationExtraElements[i].style.height = destinationElements[i].style.height;
+    }
+    if (window.innerWidth <= 1023 && window.innerWidth >= 768) {
+      destinationElements[i].style.height = destinationElements[i].offsetWidth * WidthHeightCardsConstants.TABLET + 'px';
+      destinationExtraElements[i].style.height = destinationElements[i].style.height;
+    }
+    if (window.innerWidth <= 767) {
+      destinationElements[i].style.height = destinationElements[i].offsetWidth * WidthHeightCardsConstants.MOBILE + 'px';
+      destinationExtraElements[i].style.height = destinationElements[i].style.height;
+    }
+  }
+};
+
+const cardsSizeHandler = () => {
+  setCardsSize();
+  window.addEventListener('resize', setCardsSize);
+};
+
+
+export {destinationCardToggler, cardsSizeHandler};

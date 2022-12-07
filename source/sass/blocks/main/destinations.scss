@@ -12,7 +12,7 @@
 }
 
 .destinations > div {
-  padding: 83px 103px 120px 7.5%;
+  padding: 83px 7.5% 120px 7.5%;
   max-width: 1366px;
   margin: 0 auto;
 
@@ -68,9 +68,9 @@
 
 .destinations__item {
   width: 100%;
-  min-height: 386px;
   background-color: #011c40;
   background-size: cover;
+  position: relative;
 
   @media (min-width: 1367px) {
     width: 260px;
@@ -88,22 +88,27 @@
 }
 
 .destinations__item-description {
-  margin: 335px 0 0 30px;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   color: #f9fbfd;
+  position: absolute;
+  top: 82.6%;
+  left: 11.9%;
 
   @media (max-width: 1150px) {
-    margin: 335px 0 0 4px;
+    top: 82.6%;
+    left: 1.9%;
   }
 
   @media (max-width: $vp-1023) {
-    margin: 330px 0 0 35px;
+    top: 80.6%;
+    left: 11.9%;
   }
 
   @media (max-width: $vp-767) {
-    margin: 340px 0 0 25px;
+    top: 83.5%;
+    left: 9.9%;
   }
 }
 
@@ -116,33 +121,8 @@
   overflow-y: scroll;
   margin: 0 auto;
 
-  @media (max-width: 1340px) {
-    padding: 28px 20px 20px 20px;
-    width: 245px;
-  }
-
   @media (max-width: 1300px) {
-    width: 238px;
-  }
-
-  @media (max-width: 1250px) {
-    width: 225px;
-  }
-
-  @media (max-width: 1200px) {
-    width: 215px;
-  }
-
-  @media (max-width: 1150px) {
-    width: 200px;
-  }
-
-  @media (max-width: 1100px) {
-    width: 190px;
-  }
-
-  @media (max-width: 1050px) {
-    width: 181px;
+    padding: 28px 20px 20px 20px;
   }
 
   @media (max-width: $vp-1023) {
@@ -153,30 +133,6 @@
   @media (max-width: $vp-767) {
     width: 410px;
     padding: 27px 25px 25px 25px;
-  }
-
-  @media (max-width: 460px) {
-    width: 380px;
-  }
-
-  @media (max-width: 430px) {
-    width: 350px;
-  }
-
-  @media (max-width: 400px) {
-    width: 330px;
-  }
-
-  @media (max-width: 380px) {
-    width: 310px;
-  }
-
-  @media (max-width: 360px) {
-    width: 290px;
-  }
-
-  @media (max-width: 330px) {
-    width: 270px;
   }
 }
 
