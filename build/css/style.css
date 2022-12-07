@@ -1471,7 +1471,7 @@ button,
   align-items: center;
   margin: 0;
   padding: 0;
-  max-width: 110px;
+  max-width: 105px;
 }
 
 .social__item:not(:last-child) {
@@ -2011,7 +2011,7 @@ button,
   }
 
   .social__list {
-    max-width: 95px;
+    max-width: 90px;
   }
 
   .social__item:not(:last-child) {
