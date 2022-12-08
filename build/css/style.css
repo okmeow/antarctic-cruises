@@ -808,6 +808,9 @@ button,
 
 .header__logo-link-wrapper {
   margin: 0 10px 0 0;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
+  align-self: start;
 }
 
 .navigation__toggle {
@@ -1453,9 +1456,9 @@ button,
 }
 
 .social {
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
+  align-self: start;
   position: relative;
   top: 3px;
 }
@@ -1472,7 +1475,7 @@ button,
   align-items: center;
   margin: 0;
   padding: 0;
-  max-width: 105px;
+  max-width: 106px;
 }
 
 .social__item:not(:last-child) {
@@ -1524,6 +1527,9 @@ button,
 
 .footer-navigation > a {
   margin: 0 40px 0 0;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
+  align-self: start;
 }
 
 .footer-navigation__item a {

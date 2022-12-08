@@ -41,6 +41,7 @@
 
 .footer-navigation > a {
   margin: 0 40px 0 0;
+  align-self: start;
 
   @media (max-width: $vp-1023) {
     margin: 0 26px 0 0;
