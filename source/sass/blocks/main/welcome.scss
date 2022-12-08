@@ -37,6 +37,7 @@
   max-width: 1366px;
   margin: 0 auto;
   padding: 270px 200px 285px 200px;
+  overflow-x: hidden;
 
   @media (max-width: $vp-1023) {
     margin: 0 auto;

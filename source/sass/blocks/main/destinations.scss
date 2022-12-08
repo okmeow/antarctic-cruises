@@ -72,6 +72,7 @@
   background-color: #011c40;
   background-size: cover;
   position: relative;
+  overflow-x: hidden;
 
   @media (min-width: 1367px) {
     width: 260px;

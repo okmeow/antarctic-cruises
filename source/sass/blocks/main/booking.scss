@@ -36,6 +36,7 @@
   flex-wrap: wrap;
   max-width: 1366px;
   margin: 0 auto;
+  overflow-x: hidden;
 
   @media (min-width: 1367px) {
     padding: 50px 103px 50px 103px;

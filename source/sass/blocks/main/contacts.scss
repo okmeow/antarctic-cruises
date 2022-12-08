@@ -17,6 +17,7 @@
   padding: 120px 7.5% 113px 7.5%;
   display: flex;
   flex-wrap: wrap;
+  overflow-x: hidden;
 
   @media (min-width: 1390px) {
     padding: 50px 103px;

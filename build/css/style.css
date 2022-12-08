@@ -899,6 +899,7 @@ button,
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
+  overflow-x: hidden;
 }
 
 .welcome {
@@ -913,6 +914,7 @@ button,
   max-width: 1366px;
   margin: 0 auto;
   padding: 270px 200px 285px 200px;
+  overflow-x: hidden;
 }
 
 .welcome h1 {
@@ -945,6 +947,7 @@ button,
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 113px 7.5% 145px 7.5%;
+  overflow-x: hidden;
 }
 
 .about__wrapper div {
@@ -978,6 +981,7 @@ button,
   max-width: 1366px;
   margin: 0 auto;
   padding: 110px 103px 80px 7.5%;
+  overflow-x: hidden;
 }
 
 .advantages h2 {
@@ -1082,6 +1086,7 @@ button,
   background-color: #011c40;
   background-size: cover;
   position: relative;
+  overflow-x: hidden;
 }
 
 .destinations__item-description {
@@ -1211,6 +1216,7 @@ button,
   flex-wrap: wrap;
   max-width: 1366px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .booking__text-wrapper {
@@ -1366,6 +1372,7 @@ button,
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  overflow-x: hidden;
 }
 
 .contacts__map-wrapper {
@@ -1449,6 +1456,7 @@ button,
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  overflow-x: hidden;
 }
 
 .footer__navigation {
@@ -1475,7 +1483,7 @@ button,
   align-items: center;
   margin: 7px 0 0 0;
   padding: 0;
-  max-width: 107px;
+  max-width: 108px;
 }
 
 .social__item:not(:last-child) {
@@ -1517,8 +1525,11 @@ button,
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0;
-  margin: 0;
-  max-width: 595px;
+  margin: 7px 0 0 0;
+  max-width: 593px;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
+  align-self: start;
 }
 
 .footer-navigation__item:not(:last-child) {
@@ -2043,6 +2054,7 @@ button,
 
   .footer-navigation__list {
     max-width: 480px;
+    margin: 0;
   }
 
   .footer-navigation__item:not(:last-child) {
