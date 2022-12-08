@@ -1473,9 +1473,9 @@ button,
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 0;
+  margin: 7px 0 0 0;
   padding: 0;
-  max-width: 106px;
+  max-width: 107px;
 }
 
 .social__item:not(:last-child) {
@@ -1810,7 +1810,7 @@ button,
 
   .about__wrapper img {
     width: 324px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .advantages {
@@ -2019,6 +2019,7 @@ button,
 
   .social__list {
     max-width: 90px;
+    margin: 0;
   }
 
   .social__item:not(:last-child) {

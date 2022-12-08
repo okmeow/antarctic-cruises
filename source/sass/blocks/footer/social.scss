@@ -14,12 +14,13 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0;
+  margin: 7px 0 0 0;
   padding: 0;
-  max-width: 106px;
+  max-width: 107px;
 
   @media (max-width: $vp-1023) {
     max-width: 90px;
+    margin: 0;
   }
 }
 
